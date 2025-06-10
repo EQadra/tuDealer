@@ -1,0 +1,57 @@
+# 📦 Dependencias
+node_modules/
+
+# 🚀 Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+.expo-shared/
+
+# 📱 Nativo (certificados, provisiones, etc.)
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# ⚡ Metro bundler
+.metro-cache/
+.metro-health-check*
+
+# 🐛 Logs y errores
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.log
+
+# 🍏 macOS
+.DS_Store
+*.pem
+
+# 🔐 Archivos de entorno (NO los subas)
+.env
+.env*.local
+
+# 🧠 TypeScript
+*.tsbuildinfo
+
+# 🧪 Tests
+coverage/
+
+# 📝 Ejemplo de archivo que no se debe subir
+app-example
+
+# 💾 Logs generales
+*.log
+
+# ⚙️ IDEs (opcional pero útil si usas VSCode, JetBrains, etc.)
+.vscode/
+.idea/
+*.sw?
+
+# 🧹 Archivos temporales de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
