@@ -1,20 +1,33 @@
 {
   "expo": {
-    "scheme": "acme",
+    "name": "tuDealer",
+    "slug": "tuDealer",
+    "scheme": "tudealer",
+    "version": "1.0.0",
+    "orientation": "portrait",
     "userInterfaceStyle": "automatic",
-    "orientation": "default",
+    "plugins": [
+      "expo-router"
+    ],
     "web": {
       "output": "static"
     },
-    "plugins": [
-      [
-        "expo-router",
-        {
-          "origin": "https://n"
-        }
+    "extra": {
+      "eas": {
+        "projectId": "91f26c4d-5fe3-4b4a-b7bc-4de95e90eb2e"
+      }
+    },
+    "android": {
+      "package": "com.ecuadra.tuDealer",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "VIBRATE",
+        "RECORD_AUDIO",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "SYSTEM_ALERT_WINDOW"
       ]
-    ],
-    "name": "tuDealer",
-    "slug": "tuDealer"
+    }
   }
 }
